@@ -8,7 +8,7 @@
 [![Python Versions](https://img.shields.io/badge/Python-3.9-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![CI](https://github.com/UKPLab/arxiv2025-culturecare/actions/workflows/main.yml/badge.svg)](https://github.com/UKPLab/arxiv2025-culturecare/actions/workflows/main.yml)
 
-This is the official template for new Python projects at UKP Lab. It was adapted for the needs of UKP Lab from the excellent [python-project-template](https://github.com/rochacbruno/python-project-template/) by [rochacbruno](https://github.com/rochacbruno).
+--This is the official template for new Python projects at UKP Lab. It was adapted for the needs of UKP Lab from the excellent [python-project-template](https://github.com/rochacbruno/python-project-template/) by [rochacbruno](https://github.com/rochacbruno).
 
 It should help you start your project and give you continuous status updates on the development through [GitHub Actions](https://docs.github.com/en/actions).
 
