@@ -1,3 +1,28 @@
-# This template is low-dependency. 
-# By default there is no requirements added here.
-# Add the requirements you need to this file.
+bitsandbytes==0.43.1
+datasets==2.19.1
+huggingface-hub==0.23.2
+hydra-core==1.3.2
+omegaconf==2.3.0
+openai==1.40.3
+pandas==2.2.2
+peft==0.11.1
+protobuf==3.20.3
+psutil==5.9.8
+pyarrow==16.1.0
+pyarrow-hotfix==0.6
+pydantic==2.8.2
+pydantic_core==2.20.1
+regex==2024.5.15
+requests==2.32.3
+safetensors==0.4.3
+scipy==1.14.1
+sentencepiece==0.2.0
+tokenizers==0.19.1
+torch==2.3.0
+torchaudio==2.2.0
+torchvision==0.17.0
+tqdm==4.66.4
+transformers==4.44.2
+triton==2.3.0
+trl==0.8.6
+typing_extensions==4.12.0

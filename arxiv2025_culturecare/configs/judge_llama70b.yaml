@@ -1,0 +1,16 @@
+model_name: "llama-3.1-70b"  # Judge model name
+data_model: "llama-3.1-8b"  # Response generation model name
+model_path: "/models--llama-3.1/hf/70B-Instruct"
+data_path: "/outputs/responses/{data_model}/{strategy}/{culture}_response.json"
+output_dir: "/outputs/evaluations/"
+cache_dir: ""
+culture: Chinese
+strategy: profile
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+hydra:
+  output_subdir: null
+  run:
+    dir: .

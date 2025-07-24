@@ -1,0 +1,15 @@
+model_name: "gpt-o3-mini"
+data_model: "llama-3.1-8b" #"aya-expanse-8b" #"llama-3.1-8b"
+data_path: "/outputs/responses/{data_model}/{strategy}/{culture}_response.json"
+output_dir: "/outputs/evaluations/"
+cache_dir: ""
+culture: Chinese
+strategy: profile
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+hydra:
+  output_subdir: null
+  run:
+    dir: .

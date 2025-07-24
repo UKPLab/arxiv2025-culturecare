@@ -1,0 +1,18 @@
+model_name: "qwen-2.5-7b"
+model_path: "/models--Qwen2.5-7B-Instruct"
+data_path: "/data/{culture}_data.jsonl"
+output_dir: "/outputs/responses/"
+cache_dir: ""
+culture: Chinese
+strategy: profile
+generate_cfg:
+  temperature: 0.7
+  max_new_tokens: 1000
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+hydra:
+  output_subdir: null
+  run:
+    dir: .
