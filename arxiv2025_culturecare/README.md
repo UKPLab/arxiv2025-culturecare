@@ -70,12 +70,11 @@ If you find this repository useful, please cite the following paper:
   title        = {Tailored Emotional LLM-Supporter: Enhancing Cultural Sensitivity},
   note         = {Chen Cecilia Liu and Hiba Arnaout contributed equally to this work},
   journal      = {ArXiv preprint},
-  volume       = { },
   year         = {2025},
-  url          = { },
-  doi          = { },
-  eprinttype    = {arXiv},
-  eprint       = { }
+  url          = {https://arxiv.org/abs/2508.07902}, 
+  doi          = {https://doi.org/10.48550/arXiv.2508.07902},
+  eprinttype   = {arXiv},
+  eprint       = {2508.07902}
 }
 ```
 
