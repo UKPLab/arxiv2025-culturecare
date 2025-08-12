@@ -9,7 +9,8 @@
 This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
 📄 [Paper](https://arxiv.org/abs/2508.07902)
-🌐 [Webpage]([https://arxiv.org/abs/2508.07902](https://ukplab.github.io/arxiv2025-culturecare/))
+
+🌐 [Webpage]([https://arxiv.org/abs/2508.07902](https://ukplab.github.io/arxiv2025-culturecare/)
 
 
 To use the repository, please see the `README.md` file in `arxiv2025_culturecare` folder [here](arxiv2025_culturecare/README.md).
