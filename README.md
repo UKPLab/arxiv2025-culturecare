@@ -12,6 +12,10 @@ This repository contains experimental software and is published for the sole pur
 
 🌐 [Webpage](https://ukplab.github.io/arxiv2025-culturecare)
 
+><details>
+><summary> <b>Abstract</b> </summary>
+>Large language models (LLMs) show promise in offering emotional support and generating empathetic responses for individuals in distress, but their ability to deliver culturally sensitive support remains underexplored due to lack of resources. In this work, we introduce CultureCare, the first dataset designed for this task, spanning four cultures and including 1729 distress messages, 1523 cultural signals, and 1041 support strategies with fine-grained emotional and cultural annotations. Leveraging CultureCare, we (i) develop and test four adaptation strategies for guiding three state-of-the-art LLMs toward culturally sensitive responses; (ii) conduct comprehensive evaluations using LLM judges, in-culture human annotators, and clinical psychologists; (iii) show that adapted LLMs outperform anonymous online peer responses, and that simple cultural role-play is insufficient for cultural sensitivity; and (iv) explore the application of LLMs in clinical training, where experts highlight their potential in fostering cultural competence in future therapists.
+></details></p>
 
 To use the repository, please see the `README.md` file in `arxiv2025_culturecare` folder [here](arxiv2025_culturecare/README.md).
 

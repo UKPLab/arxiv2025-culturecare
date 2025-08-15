@@ -56,6 +56,60 @@ Due to privacy and data policies, we cannot publicly release the posts.
 However, *urls* are provided that you can download directly from Reddit, alternatively please contact the first authors.
 The data inheres the policy of Reddit, is strictly for research purposes, and cannot be used for model training unless a separate arrangement between you and Reddit exists.
 
+The data is in the following JSON structure. 
+Note when no demographic information is extracted, the fields in `demographic_info` are set to `"unknown"`.
+```
+{
+    "culture": "CULTURE",
+    "post_id": "ID",
+    "post": {
+        "text": "URL",
+        "emotional_distress": [
+            {
+                "phrase": "PHRASE",
+                "intensity": "INTENSITY"
+            },
+            ...
+        ],
+        "cultural_signals": [
+            {
+                "phrase": "PHRASE",
+                "type": "TYPE"
+            },
+            ...
+        ],
+        "demographic_info": {
+            "settlement": "VALUE",
+            "gender": "VALUE",
+            "age": "VALUE",
+            "born_in": "VALUE",
+            "marital_status": "VALUE",
+            "number_of_people_in_household": "VALUE",
+            "education": "VALUE",
+            "profession": "VALUE",
+            "employment": "VALUE",
+            "social_class": "VALUE",
+            "religion": "VALUE"
+        }
+    },
+    "response": {
+        "emotional_support": [
+            {
+                "phrase": "PHRASE",
+                "strategy": "STRATEGY"
+            },
+            ...
+        ],
+        "cultural_signals": [
+            {
+                "phrase": " PHRASE",
+                "type": "TYPE"
+            },
+            ...
+        ],
+        "empathy_score": "SCORE"
+    }
+```
 ---
 ## Citation
 If you find this repository useful, please cite the following paper:
