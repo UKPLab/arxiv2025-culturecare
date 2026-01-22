@@ -28,18 +28,12 @@ To use the repository, please see the `README.md` file in `eacl2026_culturecare`
 If you find this repository useful, please cite the following paper:
 
 ```
-@article{culturecare2026,
-  author       = {Chen Cecilia Liu and
-                  Hiba Arnaout and
-                  Nils Kovačić and 
-                  Dana Atzil-Slonim and
-                  Iryna Gurevych},
-  title        = {Tailored Emotional LLM-Supporter: Enhancing Cultural Sensitivity},
-  note         = {Chen Cecilia Liu and Hiba Arnaout contributed equally to this work},
-  journal      = {EACL main},
-  year         = {2026},
-  url          = {https://arxiv.org/abs/2508.07902}, 
-  doi          = {https://doi.org/10.48550/arXiv.2508.07902}
+@inproceedings{liu2026tailoredemotionalllmsupporterenhancing,
+  title     = {Tailored Emotional {LLM}-Supporter: Enhancing Cultural Sensitivity},
+  author    = {Liu, Chen Cecilia and Arnaout, Hiba and Kova{\v{c}}i{\'c}, Nils and Atzil-Slonim, Dana and Gurevych, Iryna},
+  booktitle = {Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  year      = {2026},
+  note      = {Chen Cecilia Liu and Hiba Arnaout contributed equally to this work}
 }
 ```
 
